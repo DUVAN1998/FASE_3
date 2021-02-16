@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin-bottom: 20px;
+}
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
+header {
+  background-color:#041C42;
+	  /*rgba(0,0,0,0.9);*/
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background:#C47604;
+}
+.contenido {
+  padding-top: 80px;
+}
+#section2{
+	/*background-color:aqua;*/
+	width: 50%;float:left; height: 500px; position: fixed;
+}
+
+/*#art1{
+	margin: 0.5em 3em; padding: 0.5em 2em; background-color:burlywood; border: 1px double; }
+article p { text-align: justify; }*/
+
+aside{
+	
+	padding-top: 130px;
+	position: absolute;
+	right: 15px;
+}
+
+#TW{
+	position: inherit;
+	margin-right:inherit;
+	background-image:url("../img/Unadf.JPG");
+	padding-top: 10px;
+
+}
+
+
+#anuncio1 {}
+/*#anuncio1 { border: 2px solid blue; background-color:white;float:right; width: 44%;}*/
+
+#AutorUNAD{
+	
+	margin-top: 35px;
+		
+}
+
+ #footer {
+      background-color: #041C42;
+      position: relative;
+      display: inline-block;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+      color: white;
+    }
+
+
